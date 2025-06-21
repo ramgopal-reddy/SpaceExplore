@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <header className="bg-black backdrop-blur sticky top-0 z-50 w-full">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto my-auto px-4 py-4 flex items-center justify-between">
         {/* Logo or Brand */}
         <Link to="/" className="text-2xl font-bold text-white tracking-wide">
           🚀 NASA Explorer
