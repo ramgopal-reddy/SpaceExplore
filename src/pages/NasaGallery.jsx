@@ -1,3 +1,5 @@
+import Divider from "daisyui/components/divider";
+import Divider from "../components/Divider";
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -51,9 +53,11 @@ const NasaGallery = () => {
       className="min-h-screen flex flex-col justify-center bg-gradient-to-b from-black via-gray-900 to-black p-6"
       style={{ width: "100%", height: "100%" }}
     >
+      <Divider />
       <h1 className="text-3xl font-bold text-center text-blue mb-2">
         NASA Image Gallery
       </h1>
+      <Divider text="..%.." />
       <p className="text-center text-gray-600 mb-8">
         Browse NASA images using keywords like <em>"Mars"</em>,{" "}
         <em>"Galaxy"</em>, <em>"Moon"</em>, etc.
