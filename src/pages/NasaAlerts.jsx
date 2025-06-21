@@ -29,7 +29,7 @@ const NasaSpaceAlerts = () => {
     return (
       <div
         className="text-center text-blue-600 mt-10"
-        style={{ width: "100vw", height: "100vh" }}
+        style={{ width: "100vw", height: "100%" }}
       >
         Loading space alerts...
       </div>
@@ -40,7 +40,7 @@ const NasaSpaceAlerts = () => {
     return (
       <div
         className="text-center text-red-500 mt-10"
-        style={{ width: "100vw", height: "100vh" }}
+        style={{ width: "100vw", height: "100%" }}
       >
         No space weather alerts available.
       </div>
