@@ -13,7 +13,7 @@ import Divider from "./components/Divider";
 
 function App() {
   return (
-    <div>
+    <div className="bg-black">
       {/* <header className="p-4 text-center">
         <h1 className="text-2xl font-bold">Food Products App</h1>
         <p className="text-sm">Explore and search for food products</p>
