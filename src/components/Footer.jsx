@@ -3,7 +3,7 @@ import { FiGlobe } from "react-icons/fi";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-6 px-4 mt-auto">
+    <footer className="bg-black text-white py-6 px-4">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
         <p className="text-sm">
           &copy; {new Date().getFullYear()} Ram Gopal Reddy. All rights

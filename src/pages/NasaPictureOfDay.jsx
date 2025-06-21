@@ -28,7 +28,7 @@ const NasaPictureOfDay = () => {
   if (loading) {
     return (
       <p
-        className="text-center text-blue-600 mt-10"
+        className="text-center text-blue-600 justify-center p-50"
         style={{ width: "100vw", height: "100%" }}
       >
         Loading NASA Picture of the Day...
@@ -38,12 +38,20 @@ const NasaPictureOfDay = () => {
 
   if (!apod) {
     return (
-      <p className="text-center text-red-500 mt-10">Could not load image.</p>
+      <p
+        className="text-center text-red-500 mt-10 p-50"
+        style={{ width: "100vw", height: "100%" }}
+      >
+        Could not load image.
+      </p>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#0B3D91] to-[#0b3d9140] text-white py-10 px-4">
+    <div
+      className="min-h-screen flex flex-col bg-gradient-to-b from-[#0B3D91] to-[#0b3d9140] text-white py-10 px-4"
+      style={{ width: "100vw", height: "100%" }}
+    >
       <div className="text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           NASA Picture of the Day
