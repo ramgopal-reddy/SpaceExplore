@@ -8,6 +8,7 @@ import NasaAlerts from "./pages/NasaAlerts";
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Divider from "./components/Divider";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       {/* <Header /> */}
       <Router>
         <Header />
+        <Divider text="*" />
         <Routes>
           {/* <Route path="/" element={<Gallery />} /> */}
           <Route path="/" element={<Home />} />
@@ -36,6 +38,7 @@ function App() {
             }
           />
         </Routes>
+        <Divider text="*" />
         <Footer />
       </Router>
     </div>
