@@ -48,7 +48,7 @@ const NasaImageDetail = () => {
   return (
     <div
       className="p-6 bg-[#FAFAFA] border border-[#E0E0E0] rounded-lg shadow mt-8 justify-center"
-      style={{ width: "100vw", height: "100vh" }}
+      style={{ width: "100vw", height: "100%" }}
     >
       <h1 className="text-3xl font-bold mb-4 text-[#0B3D91]">
         {imageData.title}
