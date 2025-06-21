@@ -88,11 +88,17 @@ const NasaGallery = () => {
 
       {/* Loading or Gallery */}
       {loading ? (
-        <div className="flex-1 flex justify-center items-center text-blue-600 text-lg">
+        <div
+          className="flex-1 flex justify-center items-center text-blue-600 text-lg"
+          style={{ width: "100vw", height: "100%" }}
+        >
           Loading...
         </div>
       ) : visibleImages.length === 0 ? (
-        <div className="flex-1 flex justify-center items-center text-red-500 text-lg">
+        <div
+          className="flex-1 flex justify-center items-center text-red-500 text-lg"
+          style={{ width: "100vw", height: "100%" }}
+        >
           No images found.
         </div>
       ) : (

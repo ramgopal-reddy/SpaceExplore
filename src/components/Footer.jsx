@@ -6,7 +6,8 @@ export default function Footer() {
     <footer className="bg-black text-white py-6 px-4 mt-auto">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+          &copy; {new Date().getFullYear()} Ram Gopal Reddy. All rights
+          reserved.
         </p>
 
         <div className="flex space-x-6 text-xl">

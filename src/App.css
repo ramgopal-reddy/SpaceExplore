@@ -9,5 +9,11 @@ html, body, #root {
   margin: 0;
   background-color: #fafafa;
   justify-content: center;
+  align-items: center;
+}
+
+.mb-6{
+  justify-content: center;
+  align-items: center;
 }
 

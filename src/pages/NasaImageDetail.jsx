@@ -47,18 +47,18 @@ const NasaImageDetail = () => {
 
   return (
     <div
-      className="p-6 bg-[#FAFAFA] border border-[#E0E0E0] rounded-lg shadow mt-8"
+      className="p-6 bg-[#FAFAFA] border border-[#E0E0E0] rounded-lg shadow mt-8 justify-center"
       style={{ width: "100vw", height: "100vh" }}
     >
       <h1 className="text-3xl font-bold mb-4 text-[#0B3D91]">
         {imageData.title}
       </h1>
 
-      <div className="mb-6">
+      <div className="mb-6 justify-center flex">
         <img
           src={`https://images-assets.nasa.gov/image/${nasaId}/${nasaId}~orig.jpg`}
           alt={imageData.title}
-          className="w-full rounded shadow-md object-contain max-h-[500px] bg-white"
+          className="w-full rounded shadow-md object-contain max-h-[500px] max-w-[500px] bg-white hover:scale-105 transition-transform duration-300"
           onError={(e) =>
             (e.target.src =
               "https://via.placeholder.com/600x400?text=Image+Unavailable")
