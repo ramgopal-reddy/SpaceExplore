@@ -48,7 +48,7 @@ const NasaGallery = () => {
 
   return (
     <div
-      className="min-h-screen flex flex-col justify-center bg-[#FAFAFA] p-6"
+      className="min-h-screen flex flex-col justify-center bg-gradient-to-b from-black via-gray-900 to-black p-6"
       style={{ width: "100%", height: "100%" }}
     >
       <h1 className="text-3xl font-bold text-center text-[#0B3D91] mb-2">
