@@ -38,8 +38,8 @@ Explore the universe with NASA's public APIs. This React-based web app lets you 
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/nasa-explorer.git
-cd nasa-explorer
+git clone https://github.com/ramgopal-reddy/SpaceExplore.git
+cd SpaceExplore
 npm install
 npm start
 ```
@@ -68,7 +68,7 @@ src/
 
 ## 🌐 Live Demo
 
-🔗 [https://your-username.github.io/nasa-explorer](https://your-username.github.io/nasa-explorer)
+🔗 [https://space-explore-beige.vercel.app](https://space-explore-beige.vercel.app)
 
 ---
 
@@ -94,9 +94,9 @@ This project uses NASA's public APIs. You can get your own API key at [https://a
 
 **Your Name**
 🔗 [Portfolio](https://yourportfolio.com)
-🔗 [LinkedIn](https://linkedin.com/in/yourname)
-🔗 [GitHub](https://github.com/your-username)
-🔗 [Devpost](https://devpost.com/yourname)
+🔗 [LinkedIn](https://linkedin.com/in/ramgopal-reddy)
+🔗 [GitHub](https://github.com/ramgopal-reddy)
+🔗 [Devpost](https://devpost.com/redabothularamgopalreddy)
 
 ---
 
