@@ -16,7 +16,7 @@ Explore the universe with NASA's public APIs. This React-based web app lets you 
 
 ## 📸 Preview
 
-![NASA Explorer Preview](./src/assets/Nasa-Space.png)
+## ![NASA Explorer Preview](./src/assets/Nasa-Space.png)
 
 > Responsive UI powered by Tailwind CSS and React Router.
 
