@@ -68,7 +68,7 @@ const NasaGallery = () => {
           placeholder="Search NASA images..."
           value={search}
           onChange={handleSearchChange}
-          className="border border-gray-300 p-3 rounded w-full text-black lg:w-96 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="border border-gray-300 p-3 rounded w-full text-white lg:w-96 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <div className="flex items-center gap-2 w-full lg:w-auto">
           <input
@@ -77,7 +77,7 @@ const NasaGallery = () => {
             value={nasaId}
             onChange={(e) => setNasaId(e.target.value)}
             onKeyDown={handleKeyDown}
-            className="border border-gray-300 p-3 rounded text-black shadow-sm w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="border border-gray-300 p-3 rounded text-white shadow-sm w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <button
             onClick={handleNasaIdSubmit}
