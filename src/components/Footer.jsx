@@ -12,7 +12,7 @@ export default function Footer() {
 
         <div className="flex space-x-6 text-xl">
           <a
-            href="https://www.linkedin.com/in/your-linkedin"
+            href="https://www.linkedin.com/in/ramgopal-reddy"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400 transition"
@@ -20,7 +20,7 @@ export default function Footer() {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/your-github"
+            href="https://github.com/ramgopal-reddy"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-300 transition"
@@ -28,7 +28,7 @@ export default function Footer() {
             <FaGithub />
           </a>
           <a
-            href="https://devpost.com/your-devpost"
+            href="https://devpost.com/redabothularamgopalreddy"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-300 transition"
