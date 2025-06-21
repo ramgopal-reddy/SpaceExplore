@@ -44,10 +44,6 @@ npm install
 npm start
 ```
 
-````
-
----
-
 ## 📁 Folder Structure
 
 ```
@@ -63,9 +59,12 @@ src/
 ├── App.jsx               # Main routing setup
 ├── App.css
 └── index.js
+
 ```
 
 ## ![NASA Explorer Structure](./src/assets/NasaStructure.png)
+
+---
 
 ## 🌐 Live Demo
 
@@ -114,4 +113,7 @@ If you like this project, feel free to ⭐️ the repo or contribute!
 ```
 
 ```
-````
+
+```
+
+```
