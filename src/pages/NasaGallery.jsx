@@ -56,7 +56,6 @@ const NasaGallery = () => {
       <h1 className="text-3xl font-bold text-center text-blue mb-2">
         NASA Image Gallery
       </h1>
-      <Divider text="..%.." />
       <p className="text-center text-gray-600 mb-8">
         Browse NASA images using keywords like <em>"Mars"</em>,{" "}
         <em>"Galaxy"</em>, <em>"Moon"</em>, etc.
