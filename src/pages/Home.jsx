@@ -12,7 +12,7 @@ const Home = () => {
     >
       <div className=" text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
-          🚀 NASA Explorer
+          🚀 NASA Research Explorer
         </h1>
         <p className="text-lg md:text-xl text-gray-300 mb-12">
           Explore the universe through real-time NASA data — images, alerts, and
