@@ -10,6 +10,9 @@ Explore the universe with NASA's public APIs. This React-based web app lets you 
 - 🖼️ **NASA Image Gallery** — Browse a rich gallery of space imagery from NASA.
 - 📅 **Picture of the Day** — Daily updated images with descriptions using NASA's APOD API.
 - 🚨 **Space Alerts** — Get real-time solar activity and space weather alerts.
+- 🛰️ **ISS Tracker** — Live location, altitude, and velocity of the International Space Station with video feed.
+- ☄️ **Asteroids Near Earth** — View close-approaching asteroids with interactive Chart.js visuals.
+- 🌠 **NASA 3D Solar System** — Embedded 3D simulator from NASA's Eyes on the Solar System app.
 - 🧠 **About Section** — Learn about data sources and the purpose of the project.
 
 ---
@@ -25,13 +28,25 @@ Explore the universe with NASA's public APIs. This React-based web app lets you 
 
 ## 🛠️ Tech Stack
 
-- ⚛️ **React** with Hooks
-- 🌐 **React Router DOM** for page routing
-- 🎨 **Tailwind CSS** for responsive design
-- 🚀 **NASA APIs**
-  - [NASA Image & Video Library](https://images.nasa.gov/)
-  - [APOD (Astronomy Picture of the Day)](https://api.nasa.gov/)
-  - [DONKI (Alerts)](https://api.nasa.gov/)
+⚛️ React with Hooks
+
+🌐 React Router DOM for page routing
+
+🎨 Tailwind CSS for responsive design
+
+📊 Chart.js for asteroid visualizations
+
+🚀 NASA APIs
+
+NASA Image & Video Library
+
+APOD (Astronomy Picture of the Day)
+
+DONKI (Alerts)
+
+ISS Tracker
+
+NEO Feed (Asteroids)
 
 ---
 
@@ -53,9 +68,12 @@ src/
 ├── pages/                # Home, Gallery, Alerts, etc.
 │   ├── Home.jsx
 │   ├── NasaGallery.jsx
-│   ├── NasaPictureOfDay.jsx
+│   ├── AstronomyPictureOfDay.jsx
 │   ├── NasaAlerts.jsx
 │   └── NasaImageDetail.jsx
+|   ├── ISSTracker.jsx
+│   ├── Asteroids.jsx
+│   └── SpaceSimulator.jsx
 ├── App.jsx               # Main routing setup
 ├── App.css
 └── index.js
