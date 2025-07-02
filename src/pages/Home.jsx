@@ -70,14 +70,14 @@ const Home = () => {
             <p>Check the latest space weather and solar alerts from NASA.</p>
           </Link>
           <Link
-            to="/gallery"
+            to="/iss"
             className="p-6 bg-white hover:bg-gray-900 rounded-xl transition text-left shadow-xl backdrop-blur"
           >
             <h2 className="text-2xl font-semibold mb-2">ISS Tracker</h2>
             <p>Track the International Space Station (ISS) in real-time.</p>
           </Link>
           <Link
-            to="/nasa-gallery"
+            to="/asteroids"
             className="p-6 bg-white hover:bg-gray-900 rounded-xl transition text-left shadow-xl backdrop-blur"
           >
             <h2 className="text-2xl font-semibold mb-2">
@@ -89,7 +89,7 @@ const Home = () => {
             </p>
           </Link>
           <Link
-            to="/pic"
+            to="/space"
             className="p-6 bg-white hover:bg-gray-900 rounded-xl transition text-left shadow-xl backdrop-blur"
           >
             <h2 className="text-2xl font-semibold mb-2">Solar System</h2>
