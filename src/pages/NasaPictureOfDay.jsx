@@ -29,7 +29,7 @@ const NasaPictureOfDay = () => {
     return (
       <p
         className="text-center text-blue-600 justify-center p-50"
-        style={{ width: "100vw", height: "100%" }}
+        style={{ width: "100vw", height: "100vh" }}
       >
         Loading NASA Picture of the Day...
       </p>
@@ -49,8 +49,8 @@ const NasaPictureOfDay = () => {
 
   return (
     <div
-      className="min-h-screen flex flex-col bg-gradient-to-b from-[#0B3D91] to-[#0b3d9140] text-white py-10 px-4"
-      style={{ width: "100vw", height: "100%" }}
+      className="min-h-screen flex flex-col bg-gradient-to-b from-black via-gray-900 to-black text-white py-10 px-4"
+      style={{ width: "99vw", height: "100%" }}
     >
       <div className="text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">

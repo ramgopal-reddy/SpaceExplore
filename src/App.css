@@ -7,9 +7,12 @@
 html, body, #root {
   height: 100%;
   margin: 0;
-  background-color: #fafafa;
+  background-color: #000000;
   justify-content: center;
   align-items: center;
+  font-style: italic;
+  font-family: serif;
+
 }
 
 .mb-6{

@@ -28,8 +28,8 @@ const NasaSpaceAlerts = () => {
   if (loading) {
     return (
       <div
-        className="text-center text-blue-600 mt-10"
-        style={{ width: "100vw", height: "100%" }}
+        className="text-center text-blue-600 justify-center p-50"
+        style={{ width: "100vw", height: "100vh" }}
       >
         Loading space alerts...
       </div>
@@ -40,7 +40,7 @@ const NasaSpaceAlerts = () => {
     return (
       <div
         className="text-center text-red-500 mt-10"
-        style={{ width: "100vw", height: "100%" }}
+        style={{ width: "99vw", height: "100%" }}
       >
         No space weather alerts available.
       </div>
@@ -49,8 +49,8 @@ const NasaSpaceAlerts = () => {
 
   return (
     <div
-      className="bg-gradient-to-br from-[#0F2027] via-[#203A43] to-[#2C5364] text-white p-4"
-      style={{ width: "100vw", height: "100%" }}
+      className="bg-gradient-to-b from-black via-gray-900 to-black text-white p-4"
+      style={{ width: "99vw", height: "100%" }}
     >
       <div className="max-w-7xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">

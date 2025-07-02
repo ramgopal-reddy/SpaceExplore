@@ -8,6 +8,20 @@ const Divider = ({ text = "" }) => {
           {text}
         </span>
       )}
+      <div className="flex-grow border-t border-gray-300 dark:border-gray-600"></div>{" "}
+      <div className="flex-grow border-t border-gray-300 dark:border-gray-600"></div>
+      {text && (
+        <span className="mx-4 text-gray-500 dark:text-gray-400 font-medium whitespace-nowrap">
+          {text}
+        </span>
+      )}
+      <div className="flex-grow border-t border-gray-300 dark:border-gray-600"></div>{" "}
+      <div className="flex-grow border-t border-gray-300 dark:border-gray-600"></div>
+      {text && (
+        <span className="mx-4 text-gray-500 dark:text-gray-400 font-medium whitespace-nowrap">
+          {text}
+        </span>
+      )}
       <div className="flex-grow border-t border-gray-300 dark:border-gray-600"></div>
     </div>
   );

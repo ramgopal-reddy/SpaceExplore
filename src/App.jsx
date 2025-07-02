@@ -9,6 +9,9 @@ import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Divider from "./components/Divider";
+import Asteroids from "./pages/Asteroids";
+import ISSTracker from "./pages/ISSTracker";
+import SpaceSimulator from "./pages/SpaceSimulator";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -29,6 +32,9 @@ function App() {
           <Route path="/nasa-gallery" element={<NasaGallery />} />
           <Route path="/pic" element={<NasaPictureOfDay />} />
           <Route path="/alerts" element={<NasaAlerts />} />
+          <Route path="/asteroids" element={<Asteroids />} />
+          <Route path="/iss" element={<ISSTracker />} />
+          <Route path="/space" element={<SpaceSimulator />} />
           <Route
             path="*"
             element={

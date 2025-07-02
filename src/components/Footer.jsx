@@ -28,7 +28,7 @@ export default function Footer() {
             <FaGithub />
           </a>
           <a
-            href="https://devpost.com/redabothularamgopalreddy"
+            href="https://devpost.com/ramgopalreddy"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-300 transition"

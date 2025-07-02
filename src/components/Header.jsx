@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react"; // optional icons (requires lucide-react)
+import { FaGithub } from "react-icons/fa";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-black backdrop-blur sticky top-0 z-50 w-full">
+    <header className="bg-black backdrop-blur sticky top-0 z-50 w-full pt-5">
       <div className="max-w-7xl mx-auto my-auto px-4 py-4 flex items-center justify-between">
         {/* Logo or Brand */}
         <Link to="/" className="text-2xl font-bold text-white tracking-wide">
-          🚀 NASA Explorer
+          Space Explorer/Research
         </Link>
 
         {/* Desktop Menu */}
@@ -22,11 +23,29 @@ const Header = () => {
             Gallery
           </Link>
           <Link to="/pic" className="hover:text-yellow-400 transition">
-            Picture of Day
+            Astronomy Picture of Day
           </Link>
           <Link to="/alerts" className="hover:text-yellow-400 transition">
             Space Alerts
           </Link>
+          <Link to="/iss" className="hover:text-yellow-400 transition">
+            ISS Tracker
+          </Link>
+          <Link to="/asteroids" className="hover:text-yellow-400 transition">
+            Asteroids
+          </Link>
+          <Link to="/space" className="hover:text-yellow-400 transition">
+            Space Simulator
+          </Link>
+          <a
+            href="https://github.com/ramgopal-reddy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-row space-x-2 justify-center items-center hover:text-gray-300 transition"
+          >
+            <p>About</p>
+            <FaGithub />
+          </a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -60,7 +79,7 @@ const Header = () => {
             onClick={() => setIsOpen(false)}
             className="block hover:text-yellow-400"
           >
-            Picture of Day
+            Astronomy Picture of Day
           </Link>
           <Link
             to="/alerts"
@@ -68,6 +87,34 @@ const Header = () => {
             className="block hover:text-yellow-400"
           >
             Space Alerts
+          </Link>
+          <Link
+            to="/iss"
+            onClick={() => setIsOpen(false)}
+            className="block hover:text-yellow-400"
+          >
+            ISS Tracker
+          </Link>
+          <Link
+            to="/asteroids"
+            onClick={() => setIsOpen(false)}
+            className="block hover:text-yellow-400"
+          >
+            Asteroids
+          </Link>
+          <Link
+            to="/space"
+            onClick={() => setIsOpen(false)}
+            className="block hover:text-yellow-400"
+          >
+            Space Simulator
+          </Link>
+          <Link
+            to="/about"
+            onClick={() => setIsOpen(false)}
+            className="block hover:text-yellow-400"
+          >
+            About
           </Link>
         </nav>
       )}
