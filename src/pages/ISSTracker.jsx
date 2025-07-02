@@ -40,6 +40,15 @@ const ISSTracker = () => {
       className="bg-gradient-to-b from-black via-gray-900 to-black text-black p-6"
       style={{ width: "99vw", height: "100%" }}
     >
+      <div className="text-center mb-8">
+        <h1 className="text-4xl font-bold text-cyan-300 mb -4">
+          🛰️ ISS Real-time Tracker
+        </h1>
+        <p className="text-lg text-gray-300">
+          Track the International Space Station's current position, altitude,
+          and velocity.
+        </p>
+      </div>
       <div className="aspect-w-16 aspect-h-9 w-full max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center justify-center space-y-8 lg:space-y-0 text-center lg:text-left shadow-lg rounded-xl p-8">
         {/* Data Panel */}
         <div className="bg-black bg-opacity-100 text-white backdrop-blur-lg rounded-xl p-8 shadow-lg space-y-4 border border-white">
