@@ -14,7 +14,7 @@ const NasaSpaceAlerts = () => {
           `https://api.nasa.gov/DONKI/notifications?type=all&api_key=${NASA_API_KEY}`
         );
         const data = await res.json();
-        setAlerts(data.reverse().slice(0, 10)); // Get latest 10
+        setAlerts(data.slice(0, 10)); // Get latest 10
       } catch (error) {
         console.error("Error fetching space alerts:", error);
       } finally {
@@ -75,10 +75,10 @@ const NasaSpaceAlerts = () => {
                 </p>
               </div>
 
-              <div className="mt-4">
+              <div className="mt-4 text-black">
                 {alert.messageBody && (
                   <details className="text-sm text-black whitespace-pre-wrap">
-                    <summary className="cursor-pointer text-cyan-300 underline">
+                    <summary className="cursor-pointer text-black underline">
                       Details
                     </summary>
                     <p className="mt-2">{alert.messageBody}</p>
@@ -90,7 +90,7 @@ const NasaSpaceAlerts = () => {
                 href={alert.messageURL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 inline-block px-4 py-2 bg-yellow-500 text-black font-semibold rounded hover:bg-yellow-400 transition"
+                className="mt-4 inline-block px-4 py-2 text-black font-semibold rounded hover:bg-black transition"
               >
                 View Full Alert
               </a>
