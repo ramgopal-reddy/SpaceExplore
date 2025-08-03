@@ -42,7 +42,7 @@ const ISSTracker = () => {
     >
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold text-cyan-300 mb -4">
-          🛰️ ISS Real-time Tracker
+          ISS Real-time Tracker
         </h1>
         <p className="text-lg text-gray-300">
           Track the International Space Station's current position, altitude,
@@ -53,7 +53,7 @@ const ISSTracker = () => {
         {/* Data Panel */}
         <div className="bg-black bg-opacity-100 text-white backdrop-blur-lg rounded-xl p-8 shadow-lg space-y-4 border border-white">
           {/* <h2 className="text-3xl font-bold text-cyan-300 mb-4">
-            🛰️ ISS Real-time Tracker
+             ISS Real-time Tracker
           </h2> */}
 
           <div className="grid grid-cols-2 gap-6 text-lg">

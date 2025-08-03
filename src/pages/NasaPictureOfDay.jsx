@@ -54,7 +54,7 @@ const NasaPictureOfDay = () => {
     >
       <div className="text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          NASA Picture of the Day
+          Space Picture of the Day
         </h1>
         <p className="text-lg text-gray-200 mb-8 italic">"{apod.title}"</p>
 
@@ -79,9 +79,7 @@ const NasaPictureOfDay = () => {
         <div className="mt-8 text-left bg-white text-black rounded-xl p-6 shadow-lg">
           <h2 className="text-xl font-semibold mb-2">Explanation</h2>
           <p className="text-gray-800">{apod.explanation}</p>
-          <p className="mt-4 text-sm text-right text-gray-600">
-            📅 {apod.date}
-          </p>
+          <p className="mt-4 text-sm text-right text-gray-600">{apod.date}</p>
         </div>
       </div>
     </div>
