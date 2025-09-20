@@ -38,7 +38,7 @@ const Header = () => {
             Space Simulator
           </Link>
           <a
-            href="https://github.com/ramgopal-reddy"
+            href="https://github.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-row space-x-2 justify-center items-center hover:text-gray-300 transition"
