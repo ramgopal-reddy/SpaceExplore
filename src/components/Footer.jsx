@@ -36,7 +36,7 @@ export default function Footer() {
             <FaDev />
           </a>
           <a
-            href="https://yourportfolio.com"
+            href="https://www.ramgopalreddy.xyz/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-green-300 transition"
