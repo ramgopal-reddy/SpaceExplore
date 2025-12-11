@@ -1,4 +1,4 @@
-```markdown
+``
 # 🚀 NASA Explorer
 
 Explore the universe with NASA's public APIs. This React-based web app lets you browse high-quality space images, get the Astronomy Picture of the Day, view live space weather alerts, and more — all in one beautifully styled interface.
@@ -18,7 +18,7 @@ Explore the universe with NASA's public APIs. This React-based web app lets you 
 ---
 
 ## 📸 Preview
-```
+``
 
 ## ![NASA Explorer Preview](./src/assets/Nasa-Space.png)
 
